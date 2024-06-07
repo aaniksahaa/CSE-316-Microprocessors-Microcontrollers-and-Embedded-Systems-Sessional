@@ -1,0 +1,38 @@
+B1 (Monday 11 am)
+A sequence of lowercase letters will be given as input, followed by an uppercase letter working as the input terminator. 
+Output the minimum among the lowercase letters in uppercase.
+
+B2 (Monday 2.30 pm)
+Input:
+Two strings of size between 1 and 6
+Each character is between abcde
+Take input one by one until user presses Enter
+
+- Find the hash value of each string
+- Simple hash function, positional value*character value
+a is 1
+b is 2
+...
+e is 5
+
+Output:
+If both of the strings have the same hash value, print PE. Otherwise, print NE. 
+
+A1 (Tuesday 11 am)
+Take a ternary number as input and print binary as output
+Input may have chars other than 0 1 2, skip them (don't stop the program there)
+Input stops when user presses enter and show binary output (in order of LSB to MSB)
+
+A2 (Tuesday 2.30 pm)
+Given two 16 bit integers a, b >=1 in decimal representation, output their GCD in decimal (in order of most significant digit to least significant digit).
+GCD(a, b):
+	while a!=b
+		if a>b
+			c=a-b
+			a=c
+		else if b>a
+			c=b-a
+			b=c
+		else
+			return a
+

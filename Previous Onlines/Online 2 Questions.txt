@@ -1,0 +1,13 @@
+2 ta set A and B er minus
+
+---
+
+1. Take input  
+2. Find inversion Point ( like here 76-23,  so find array index there) 
+3. Based on inversion point,  do merge sort 
+4. Print sorted array
+
+---
+
+input an array
+Output maximum length of increasing subarray
